@@ -11,10 +11,9 @@ def remove_duplicates(nums)
         end
 
         i += 1
-        j += 1
-      else
-        j += 1
       end
+
+      j += 1
     end
 
     i + 1
