@@ -18,7 +18,7 @@ describe 'remove_duplicates' do
     expect(nums[0...k]).to eq([0, 1, 2, 3, 4])
   end
 
-  it 'case 1' do
+  it 'case 3' do
     nums = [1, 1]
     k = remove_duplicates(nums)
 
@@ -26,7 +26,7 @@ describe 'remove_duplicates' do
     expect(nums[0...k]).to eq([1])
   end
 
-  it 'case 2' do
+  it 'case 4' do
     nums = [1, 2]
     k = remove_duplicates(nums)
 
